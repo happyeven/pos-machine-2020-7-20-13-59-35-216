@@ -1,8 +1,8 @@
 #### 1.the tasking
  ![image](https://github.com/happyeven/pos-machine-2020-7-20-13-59-35-216/blob/master/homework/tasking.png)
+ Tips:if could not open the image,you can check the file following: https://github.com/happyeven/pos-machine-2020-7-20-13-59-35-216/blob/master/homework/tasking.txt
 #### 2.the contextMap.png
  ![image](https://github.com/happyeven/pos-machine-2020-7-20-13-59-35-216/blob/master/homework/contextMap.png)
- 
 #### 3.PCDA 
 ##### transIntoItemArr
 
