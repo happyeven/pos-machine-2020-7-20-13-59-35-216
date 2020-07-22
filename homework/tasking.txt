@@ -1,23 +1,23 @@
-1.????item??
-   �??: barCodes : Array
-   �??: itemArr : Array[{barCode:string,Quantity:int}]
+1.计算每个item数量
+   ·输入: barCodes ： Array
+   ·输出: itemArr : Array[{barCode:string,Quantity:int}]
 
-2.??item??
-   �??: itemArr : Array[{barCode:string,Quantity:int}]
-   �??: itemInfoArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int}]
+2.完善item信息
+   ·输入: itemArr : Array[{barCode:string,Quantity:int}]
+   ·输出: itemInfoArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int}]
 
-3.????item???
-   �??: itemInfoArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int}]
-   �??: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}]
+3.计算每种item的总价
+   ·输入: itemInfoArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int}]
+   ·输出: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}]
 
-4.?????????
-   �??: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}]
-   �??: totalPrice : int 
+4.计算所有商品的总价
+   ·输入: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}]
+   ·输出: totalPrice : int 
 
-5.???receipt??
-   �??: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}],totalPrice : int 
-   �??: receipt : string
+5.格式化receipt信息
+   ·输入: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}],totalPrice : int 
+   ·输出: receipt :　string
 
-6.??
-   �??: receipt : string
-   �??: console.log()
+6.输出
+   ·输入: receipt :　string
+   ·输出: console.log()
