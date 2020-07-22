@@ -1,0 +1,23 @@
+1.????item??
+   ·??: barCodes : Array
+   ·??: itemArr : Array[{barCode:string,Quantity:int}]
+
+2.??item??
+   ·??: itemArr : Array[{barCode:string,Quantity:int}]
+   ·??: itemInfoArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int}]
+
+3.????item???
+   ·??: itemInfoArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int}]
+   ·??: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}]
+
+4.?????????
+   ·??: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}]
+   ·??: totalPrice : int 
+
+5.???receipt??
+   ·??: itemInfoDetailsArr: Array[{barCode:string,Quantity:int,Name:string,unitPrice:int,Subtotal:int}],totalPrice : int 
+   ·??: receipt : string
+
+6.??
+   ·??: receipt : string
+   ·??: console.log()
